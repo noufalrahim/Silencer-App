@@ -33,7 +33,7 @@ export default function TimePicker() {
           mode="time"
           value={new Date()}
           display="clock"
-          onChange={(event, date) => setDate(event, date)}
+          onChange={(event, date: any) => setDate(event, date)}
         />
       )}
     </View>
