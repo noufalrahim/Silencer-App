@@ -1,27 +1,17 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import {StyleSheet, Text, View} from 'react-native';
+import React from 'react';
 
 export default function TimeDisplay() {
   return (
-    <View
-      style={styles.container}
-    >
+    <View style={styles.container}>
       <View>
-        <Text
-          style={styles.time}
-        >1:20</Text>
+        <Text style={styles.time}>1:20</Text>
       </View>
-      <View
-        style={styles.ampmContainer}
-      >
-        <Text
-          style={styles.ampm}
-        >
-          PM
-        </Text>
+      <View style={styles.ampmContainer}>
+        <Text style={styles.ampm}>PM</Text>
       </View>
     </View>
-  )
+  );
 }
 
 const styles = StyleSheet.create({
@@ -43,4 +33,4 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
     alignItems: 'center',
   },
-})
+});
